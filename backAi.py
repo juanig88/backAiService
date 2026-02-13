@@ -108,7 +108,7 @@ def populateWordTokenDefinitive():
 
 def populateTransformPrepositions():
     conn = podbc.connect(
-        "Driver={SQL Server Native Client 11.0};Server=LAPTOP-NMA04U3H\\SQLEXPRESS;Database=TFG;uid=sa;pwd=Luna$029;")
+        "Driver={SQL Server Native Client 11.0};Server=LAPTOP-NMA04U3H\\SQLEXPRESS;Database=TFG;uid=sa;pwd=XXX;")
 
     cursor = conn.cursor()
     sql = (" select * from [TFG].[dbo].[transform_prepositions] ")
